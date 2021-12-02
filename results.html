@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
 <body>
+    
     <h1> Results: <span id="term"></span></h1>
     <form>
-        <select>
+
+<div class="flex-row align-start align-stretch-md align-content-start align-content-stretch-md min-100-vh bg-primary">
+    <div class="col-12 col-md-3 bg-light p-3">
+      <h1 class="text-primary">Library of Congress Search Engine</h1>
+      <form id="search-form" class="mb-2">
+        <input id="search-input" class="form-input w-100" type="text" placeholder="Search!">
+        <select id="format-input" class="form-input w-100">
             <option value="">-----</option>
             <option value="maps">Maps</option>
             <option value="audio">Audio</option>
@@ -24,3 +32,4 @@
     <script href=./assets/script.js></script>
 </body>
 </html>
+
